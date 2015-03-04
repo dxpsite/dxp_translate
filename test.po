@@ -1,3 +1,9 @@
-msgid ""
-"Here is an example of how one might continue a very long string\n"
-"for the common case the string represents multi-line output.\n"
+# My comment
+#. Programmer comment
+#: location.c:23
+#| msgctxt "Old context"
+#| msgid "Won"
+#, fuzzy
+msgctxt "Disambiguation for context"
+msgid "One"
+msgstr "Een"
